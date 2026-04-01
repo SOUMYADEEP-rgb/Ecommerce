@@ -118,3 +118,36 @@ Timestamp,  Q1. Age Group  ,  Q2. Gender  ,  Q3. Occupation  ,Q4.  Monthly Incom
 3/26/2026 9:32:03,18 - 30,Male,Student,10000-30000,"Amazon, Flipkart",Flipkart,Monthly,1000 - 3000,Electronics,Groceries,Price,Sometimes,3,4,3,3,4,No,3 - 7 days,UPI
 3/26/2026 10:01:06,> 50,Male,Working Professional,> 100000,"Amazon, Flipkart, Myntra, Others",Flipkart,Monthly,7000+,Groceries,Electronics,Brand,Always,5,5,5,5,5,Yes,1 - 3 days,UPI
 3/26/2026 10:10:55,> 50,Female,Working Professional,60000-100000,Amazon,Amazon,Monthly,3000 - 7000,Groceries,Home appliances,Price,Sometimes,4,3,4,5,5,No,3 - 7 days,UPI
+3/26/2026 11:01:53,> 50,Male,Other,30000-60000,Amazon,Amazon,Rarely,1000 - 3000,Groceries,Clothing,Delivery speed,Sometimes,3,3,3,3,3,Yes,1 - 3 days,Debit/Credit card
+3/26/2026 11:37:54,> 50,Female,Working Professional,60000-100000,Amazon,Amazon,Weekly,7000+,Clothing,Electronics,Delivery speed,Never,4,5,5,5,1,No,1 - 3 days,UPI
+3/26/2026 12:26:36,> 50,Male,Working Professional,> 100000,Amazon,Others,Rarely,< 1000,Home appliances,Beauty products,Reviews,Never,2,1,3,5,5,Yes,1 - 3 days,UPI
+3/26/2026 20:24:51,> 50,Male,Working Professional,10000-30000,Meesho,Amazon,Monthly,3000 - 7000,Electronics,Home appliances,Brand,Sometimes,4,4,5,4,4,No,3 - 7 days,COD
+3/26/2026 20:30:49,> 50,Female,Other,< 10000,"Amazon, Meesho",Amazon,Rarely,1000 - 3000,Home appliances,Home appliances,Delivery speed,Rarely,5,4,5,4,3,No,1 - 3 days,COD
+3/27/2026 7:11:34,> 50,Male,Working Professional,> 100000,"Amazon, Flipkart, Myntra",Amazon,Monthly,7000+,Home appliances,Electronics,Brand,Sometimes,4,4,3,5,5,Yes,3 - 7 days,UPI
+3/27/2026 9:14:12,18 - 30,Male,Working Professional,> 100000,Amazon,Amazon,Monthly,3000 - 7000,Electronics,Home appliances,Price,Rarely,5,4,5,3,5,No,Same day,UPI
+3/28/2026 17:09:05,30 - 50,Female,Other,30000-60000,Meesho,Meesho,Rarely,< 1000,Clothing,Home appliances,Price,Sometimes,3,2,3,3,1,No,1 - 3 days,Net banking
+3/28/2026 20:48:27,18 - 30,Female,Student,< 10000,Amazon,Amazon,Rarely,< 1000,Clothing,Home appliances,Delivery speed,Sometimes,4,4,4,5,5,No,Same day,COD
+3/28/2026 20:49:16,18 - 30,Female,Student,< 10000,Meesho,Meesho,Rarely,< 1000,Clothing,Beauty products,Reviews,Never,3,4,3,4,3,No,No preference,UPI
+3/28/2026 20:50:19,30 - 50,Female,Other,30000-60000,Amazon,Amazon,Rarely,< 1000,Clothing,Home appliances,Reviews,Sometimes,5,5,4,4,5,Yes,3 - 7 days,Debit/Credit card
+3/28/2026 20:54:14,18 - 30,Female,Working Professional,30000-60000,"Amazon, Flipkart, Ajio",Amazon,Weekly,7000+,Electronics,Clothing,Reviews,Always,4,4,3,4,4,Yes,3 - 7 days,UPI
+3/28/2026 21:58:10,30 - 50,Female,Other,< 10000,Amazon,Amazon,Rarely,< 1000,Home appliances,Groceries,Brand,Rarely,5,5,5,5,5,Yes,1 - 3 days,Debit/Credit card
+3/28/2026 21:59:54,18 - 30,Female,Student,< 10000,Amazon,Amazon,Monthly,1000 - 3000,Electronics,Clothing,Reviews,Sometimes,3,3,3,3,3,Yes,Same day,Debit/Credit card
+3/29/2026 1:11:18,18 - 30,Female,Student,< 10000,Meesho,Meesho,Rarely,< 1000,Clothing,Home appliances,Brand,Always,5,2,3,2,4,Yes,1 - 3 days,UPI
+3/29/2026 4:00:10,30 - 50,Male,Working Professional,> 100000,Amazon,Amazon,Rarely,< 1000,Electronics,Home appliances,Price,Always,4,4,3,4,5,No,3 - 7 days,Debit/Credit card
+3/29/2026 20:16:50,18 - 30,Female,Business,< 10000,"Amazon, Flipkart, Meesho",Amazon,Rarely,< 1000,Clothing,Clothing,Price,Sometimes,4,4,5,5,5,No,1 - 3 days,COD
+3/29/2026 20:17:05,18 - 30,Male,Working Professional,30000-60000,"Amazon, Flipkart, Others",Amazon,Monthly,< 1000,Electronics,Beauty products,Reviews,Always,4,4,4,3,4,No,1 - 3 days,UPI
+3/29/2026 20:22:31,18 - 30,Female,Other,10000-30000,Meesho,Meesho,Rarely,< 1000,Groceries,Groceries,Brand,Always,5,5,5,5,5,No,1 - 3 days,UPI
+3/29/2026 20:38:04,18 - 30,Female,Working Professional,30000-60000,Amazon,Flipkart,Monthly,1000 - 3000,Clothing,Electronics,Price,Always,4,4,4,4,4,No,3 - 7 days,UPI
+3/29/2026 20:40:27,< 18,Male,Student,< 10000,Meesho,Flipkart,Rarely,< 1000,Electronics,Beauty products,Brand,Rarely,2,2,2,2,2,No,1 - 3 days,COD
+3/29/2026 20:41:35,18 - 30,Female,Other,10000-30000,Meesho,Meesho,Weekly,1000 - 3000,Clothing,Home appliances,Price,Sometimes,4,3,3,3,5,Yes,1 - 3 days,UPI
+3/29/2026 20:53:17,18 - 30,Female,Other,< 10000,Meesho,Meesho,Rarely,< 1000,Clothing,Beauty products,Price,Always,4,3,4,5,5,Yes,1 - 3 days,UPI
+3/29/2026 20:55:45,< 18,Female,Student,< 10000,Others,Meesho,Rarely,< 1000,Electronics,Clothing,Price,Sometimes,4,3,3,3,3,No,3 - 7 days,UPI
+3/29/2026 21:14:03,18 - 30,Female,Working Professional,10000-30000,Meesho,Meesho,Rarely,< 1000,Clothing,Home appliances,Price,Sometimes,5,5,5,5,3,No,3 - 7 days,UPI
+3/29/2026 21:17:00,18 - 30,Female,Student,60000-100000,Meesho,Flipkart,Rarely,1000 - 3000,Clothing,Beauty products,Price,Sometimes,2,3,5,5,2,Yes,1 - 3 days,UPI
+3/29/2026 21:22:33,18 - 30,Male,Working Professional,60000-100000,"Amazon, Flipkart",Amazon,Rarely,1000 - 3000,Electronics,Home appliances,Price,Always,4,4,4,4,4,Yes,1 - 3 days,UPI
+3/29/2026 21:27:24,18 - 30,Female,Working Professional,10000-30000,Meesho,Meesho,Monthly,1000 - 3000,Clothing,Clothing,Reviews,Sometimes,3,3,3,3,3,Yes,3 - 7 days,COD
+3/29/2026 22:14:14,18 - 30,Female,Student,< 10000,"Amazon, Meesho",Meesho,Rarely,< 1000,Clothing,Electronics,Price,Always,3,4,4,5,4,No,1 - 3 days,UPI
+3/29/2026 22:45:39,18 - 30,Female,Student,< 10000,Amazon,Amazon,Rarely,1000 - 3000,Clothing,Groceries,Reviews,Sometimes,3,3,3,4,4,No,3 - 7 days,UPI
+3/29/2026 22:46:27,18 - 30,Female,Working Professional,10000-30000,"Amazon, Flipkart, Meesho",Amazon,Rarely,1000 - 3000,Clothing,Electronics,Reviews,Sometimes,4,3,4,5,4,No,1 - 3 days,UPI
+3/29/2026 23:56:05,18 - 30,Female,Other,< 10000,"Amazon, Flipkart, Meesho",Meesho,Rarely,< 1000,Clothing,Beauty products,Reviews,Always,3,3,3,3,3,No,1 - 3 days,UPI
+3/30/2026 20:15:55,< 18,Female,Student,< 10000,"Amazon, Flipkart, Meesho, Myntra",Myntra,Monthly,1000 - 3000,Clothing,Beauty products,Price,Always,4,5,5,5,5,Yes,1 - 3 days,UPI

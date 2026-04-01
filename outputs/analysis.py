@@ -115,14 +115,15 @@ queries = {
 }
 
 # === CREATE EXCEL FILE ===
-output_file = "analysis_output.xlsx"
+output_file = "analysis_output_final.xlsx"
 
 with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
     for sheet_name, query in queries.items():
         df = pd.read_sql(query, conn)
         df.to_excel(writer, sheet_name=sheet_name, index=False)
 
-print("✅ Excel file created: analysis_output.xlsx")
+print("✅ Excel file created: analysis_output_final.xlsx")
+# Python code is used with sql to automate the execution of sql queries to be stored in excel sheets for permanent use
 
 # === CLOSE CONNECTION ===
 conn.close()
