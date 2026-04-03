@@ -1,0 +1,672 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='new_raw_data' inline='true' name='federated.1li7m8o151wvs41cq2nhi0mzs2fw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='new_raw_data' name='textscan.1f0fdwn0gtdsfx14ejep31tqko1s'>
+            <connection class='textscan' directory='C:/Users/soumy/Desktop/ecommerce-project/data' filename='new_raw_data.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1f0fdwn0gtdsfx14ejep31tqko1s' name='new_raw_data.csv' table='[new_raw_data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+            <column datatype='datetime' name='Timestamp' ordinal='0' />
+            <column datatype='string' name='Q1. Age Group  ' ordinal='1' />
+            <column datatype='string' name='Q2. Gender  ' ordinal='2' />
+            <column datatype='string' name='Q3. Occupation  ' ordinal='3' />
+            <column datatype='string' name='Q4.  Monthly Income Range ' ordinal='4' />
+            <column datatype='string' name='Q5. Which e-commerce platforms do you use?  ' ordinal='5' />
+            <column datatype='string' name='Q6. Primary platform you use most often  ' ordinal='6' />
+            <column datatype='string' name='Q7. How often do you shop online?  ' ordinal='7' />
+            <column datatype='string' name='Q8. Average monthly spending on e-commerce  ' ordinal='8' />
+            <column datatype='string' name='Q9. What type of products do you buy most?  ' ordinal='9' />
+            <column datatype='string' name='Q10. Secondary product category you often purchase  ' ordinal='10' />
+            <column datatype='string' name='Q11. What influences your purchase decision the most?  ' ordinal='11' />
+            <column datatype='string' name='Q12. Do you compare prices across platforms before buying?  ' ordinal='12' />
+            <column datatype='integer' name='Q13. Rate your satisfaction with your primary platform  ' ordinal='13' />
+            <column datatype='integer' name='Q14. Importance of price in choosing platform' ordinal='14' />
+            <column datatype='integer' name='Q15. Importance of delivery speed  ' ordinal='15' />
+            <column datatype='integer' name='Q16. Importance of product variety ' ordinal='16' />
+            <column datatype='integer' name='Q17. Importance of return/refund policy  ' ordinal='17' />
+            <column datatype='string' name='Q18. Have you faced delivery issues?  ' ordinal='18' />
+            <column datatype='string' name='Q19. Preferred delivery time' ordinal='19' />
+            <column datatype='string' name='Q20. Preferred payment method  ' ordinal='20' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;₹&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_IN&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Timestamp</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Timestamp]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Timestamp</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q1. Age Group  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q1. Age Group  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q1. Age Group  </remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q2. Gender  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q2. Gender  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q2. Gender  </remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q3. Occupation  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q3. Occupation  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q3. Occupation  </remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q4.  Monthly Income Range </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q4.  Monthly Income Range ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q4.  Monthly Income Range </remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q5. Which e-commerce platforms do you use?  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q5. Which e-commerce platforms do you use?  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q5. Which e-commerce platforms do you use?  </remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q6. Primary platform you use most often  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q6. Primary platform you use most often  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q6. Primary platform you use most often  </remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q7. How often do you shop online?  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q7. How often do you shop online?  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q7. How often do you shop online?  </remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q8. Average monthly spending on e-commerce  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q8. Average monthly spending on e-commerce  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q8. Average monthly spending on e-commerce  </remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q9. What type of products do you buy most?  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q9. What type of products do you buy most?  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q9. What type of products do you buy most?  </remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q10. Secondary product category you often purchase  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q10. Secondary product category you often purchase  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q10. Secondary product category you often purchase  </remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q11. What influences your purchase decision the most?  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q11. What influences your purchase decision the most?  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q11. What influences your purchase decision the most?  </remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q12. Do you compare prices across platforms before buying?  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q12. Do you compare prices across platforms before buying?  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q12. Do you compare prices across platforms before buying?  </remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q13. Rate your satisfaction with your primary platform  </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q13. Rate your satisfaction with your primary platform  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q13. Rate your satisfaction with your primary platform  </remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q14. Importance of price in choosing platform</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q14. Importance of price in choosing platform]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q14. Importance of price in choosing platform</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q15. Importance of delivery speed  </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q15. Importance of delivery speed  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q15. Importance of delivery speed  </remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q16. Importance of product variety </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q16. Importance of product variety ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q16. Importance of product variety </remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q17. Importance of return/refund policy  </remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Q17. Importance of return/refund policy  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q17. Importance of return/refund policy  </remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q18. Have you faced delivery issues?  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q18. Have you faced delivery issues?  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q18. Have you faced delivery issues?  </remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q19. Preferred delivery time</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q19. Preferred delivery time]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q19. Preferred delivery time</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Q20. Preferred payment method  </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Q20. Preferred payment method  ]</local-name>
+            <parent-name>[new_raw_data.csv]</parent-name>
+            <remote-alias>Q20. Preferred payment method  </remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <object-id>[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Q1. Age Group' datatype='string' name='[Q1. Age Group  ]' role='dimension' type='nominal' />
+      <column caption='Q10. Secondary product category you often purchase' datatype='string' name='[Q10. Secondary product category you often purchase  ]' role='dimension' type='nominal' />
+      <column caption='Q11. What influences your purchase decision the most?' datatype='string' name='[Q11. What influences your purchase decision the most?  ]' role='dimension' type='nominal' />
+      <column caption='Q12. Do you compare prices across platforms before buying?' datatype='string' name='[Q12. Do you compare prices across platforms before buying?  ]' role='dimension' type='nominal' />
+      <column caption='Q13. Rate your satisfaction with your primary platform' datatype='integer' name='[Q13. Rate your satisfaction with your primary platform  ]' role='measure' type='quantitative' />
+      <column caption='Q15. Importance of delivery speed' datatype='integer' name='[Q15. Importance of delivery speed  ]' role='measure' type='quantitative' />
+      <column caption='Q16. Importance of product variety' datatype='integer' name='[Q16. Importance of product variety ]' role='measure' type='quantitative' />
+      <column caption='Q17. Importance of return/refund policy' datatype='integer' name='[Q17. Importance of return/refund policy  ]' role='measure' type='quantitative' />
+      <column caption='Q18. Have you faced delivery issues?' datatype='string' name='[Q18. Have you faced delivery issues?  ]' role='dimension' type='nominal' />
+      <column caption='Q2. Gender' datatype='string' name='[Q2. Gender  ]' role='dimension' type='nominal' />
+      <column caption='Q20. Preferred payment method' datatype='string' name='[Q20. Preferred payment method  ]' role='dimension' type='nominal' />
+      <column caption='Q3. Occupation' datatype='string' name='[Q3. Occupation  ]' role='dimension' type='nominal' />
+      <column caption='Q4.  Monthly Income Range' datatype='string' name='[Q4.  Monthly Income Range ]' role='dimension' type='nominal' />
+      <column caption='Q5. Which e-commerce platforms do you use?' datatype='string' name='[Q5. Which e-commerce platforms do you use?  ]' role='dimension' type='nominal' />
+      <column caption='Q6. Primary platform you use most often' datatype='string' name='[Q6. Primary platform you use most often  ]' role='dimension' type='nominal' />
+      <column caption='Q7. How often do you shop online?' datatype='string' name='[Q7. How often do you shop online?  ]' role='dimension' type='nominal' />
+      <column caption='Q8. Average monthly spending on e-commerce' datatype='string' name='[Q8. Average monthly spending on e-commerce  ]' role='dimension' type='nominal' />
+      <column caption='Q9. What type of products do you buy most?' datatype='string' name='[Q9. What type of products do you buy most?  ]' role='dimension' type='nominal' />
+      <column caption='new_raw_data.csv' datatype='table' name='[__tableau_internal_object_id__].[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]' role='measure' type='quantitative' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='new_raw_data.csv' id='new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4'>
+            <properties context=''>
+              <relation connection='textscan.1f0fdwn0gtdsfx14ejep31tqko1s' name='new_raw_data.csv' table='[new_raw_data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_IN' separator=','>
+                  <column datatype='datetime' name='Timestamp' ordinal='0' />
+                  <column datatype='string' name='Q1. Age Group  ' ordinal='1' />
+                  <column datatype='string' name='Q2. Gender  ' ordinal='2' />
+                  <column datatype='string' name='Q3. Occupation  ' ordinal='3' />
+                  <column datatype='string' name='Q4.  Monthly Income Range ' ordinal='4' />
+                  <column datatype='string' name='Q5. Which e-commerce platforms do you use?  ' ordinal='5' />
+                  <column datatype='string' name='Q6. Primary platform you use most often  ' ordinal='6' />
+                  <column datatype='string' name='Q7. How often do you shop online?  ' ordinal='7' />
+                  <column datatype='string' name='Q8. Average monthly spending on e-commerce  ' ordinal='8' />
+                  <column datatype='string' name='Q9. What type of products do you buy most?  ' ordinal='9' />
+                  <column datatype='string' name='Q10. Secondary product category you often purchase  ' ordinal='10' />
+                  <column datatype='string' name='Q11. What influences your purchase decision the most?  ' ordinal='11' />
+                  <column datatype='string' name='Q12. Do you compare prices across platforms before buying?  ' ordinal='12' />
+                  <column datatype='integer' name='Q13. Rate your satisfaction with your primary platform  ' ordinal='13' />
+                  <column datatype='integer' name='Q14. Importance of price in choosing platform' ordinal='14' />
+                  <column datatype='integer' name='Q15. Importance of delivery speed  ' ordinal='15' />
+                  <column datatype='integer' name='Q16. Importance of product variety ' ordinal='16' />
+                  <column datatype='integer' name='Q17. Importance of return/refund policy  ' ordinal='17' />
+                  <column datatype='string' name='Q18. Have you faced delivery issues?  ' ordinal='18' />
+                  <column datatype='string' name='Q19. Preferred delivery time' ordinal='19' />
+                  <column datatype='string' name='Q20. Preferred payment method  ' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontsize='26'>RESPONSE CATEGORIES</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='new_raw_data' name='federated.1li7m8o151wvs41cq2nhi0mzs2fw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1li7m8o151wvs41cq2nhi0mzs2fw'>
+            <column caption='Q1. Age Group' datatype='string' name='[Q1. Age Group  ]' role='dimension' type='nominal' />
+            <column caption='Q2. Gender' datatype='string' name='[Q2. Gender  ]' role='dimension' type='nominal' />
+            <column caption='Q3. Occupation' datatype='string' name='[Q3. Occupation  ]' role='dimension' type='nominal' />
+            <column-instance column='[__tableau_internal_object_id__].[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4:qk]' pivot='key' type='quantitative' />
+            <column caption='new_raw_data.csv' datatype='table' name='[__tableau_internal_object_id__].[new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4]' role='measure' type='quantitative' />
+            <column-instance column='[Q1. Age Group  ]' derivation='None' name='[none:Q1. Age Group  :nk]' pivot='key' type='nominal' />
+            <column-instance column='[Q2. Gender  ]' derivation='None' name='[none:Q2. Gender  :nk]' pivot='key' type='nominal' />
+            <column-instance column='[Q3. Occupation  ]' derivation='None' name='[none:Q3. Occupation  :nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1li7m8o151wvs41cq2nhi0mzs2fw].[none:Q2. Gender  :nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1li7m8o151wvs41cq2nhi0mzs2fw].[__tableau_internal_object_id__].[cnt:new_raw_data.csv_42C747CE9926437E8CCAE687B03578B4:qk]</rows>
+        <cols>([federated.1li7m8o151wvs41cq2nhi0mzs2fw].[none:Q2. Gender  :nk] / ([federated.1li7m8o151wvs41cq2nhi0mzs2fw].[none:Q1. Age Group  :nk] / [federated.1li7m8o151wvs41cq2nhi0mzs2fw].[none:Q3. Occupation  :nk]))</cols>
+      </table>
+      <simple-id uuid='{EC51BCAD-7FBC-41AB-943A-A7A9AFCC21EF}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1li7m8o151wvs41cq2nhi0mzs2fw].[none:Q2. Gender  :nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1li7m8o151wvs41cq2nhi0mzs2fw].[none:Q1. Age Group  :nk]</field>
+            <field>[federated.1li7m8o151wvs41cq2nhi0mzs2fw].[none:Q3. Occupation  :nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B941CB1A-7B42-4E0F-A283-2318E11FFF0A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      ot3/PGGpAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

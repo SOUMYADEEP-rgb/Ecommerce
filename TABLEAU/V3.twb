@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='analysis_output_final' inline='true' name='federated.0haew131vfi4bi1c2rpvk1qvfpnp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='analysis_output_final' name='excel-direct.0j505c31vsqc6b1epo4nh11m45np'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/soumy/Desktop/ecommerce-project/data/analysis_output_final.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0j505c31vsqc6b1epo4nh11m45np' name='Gender_Spend' table='[Gender_Spend$]' type='table'>
+          <columns gridOrigin='A1:B3:no:A1:B3:0' header='yes' outcome='6'>
+            <column datatype='integer' name='gender' ordinal='0' />
+            <column datatype='real' name='avg_spend' ordinal='1' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Gender_Spend]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B3:no:A1:B3:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[Gender_Spend]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Gender!Spend_40616529310F4AD993B94B0C08BF2E0B]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_spend</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_spend]</local-name>
+            <parent-name>[Gender_Spend]</parent-name>
+            <remote-alias>avg_spend</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Gender!Spend_40616529310F4AD993B94B0C08BF2E0B]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Gender_Spend' datatype='table' name='[__tableau_internal_object_id__].[Gender!Spend_40616529310F4AD993B94B0C08BF2E0B]' role='measure' type='quantitative' />
+      <column caption='Avg Spend' datatype='real' name='[avg_spend]' role='measure' type='quantitative' />
+      <column aggregation='Sum' caption='Gender' datatype='integer' name='[gender]' role='dimension' type='ordinal'>
+        <aliases>
+          <alias key='1' value='MALE' />
+          <alias key='2' value='FEMALE' />
+        </aliases>
+      </column>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Gender_Spend' id='Gender!Spend_40616529310F4AD993B94B0C08BF2E0B'>
+            <properties context=''>
+              <relation connection='excel-direct.0j505c31vsqc6b1epo4nh11m45np' name='Gender_Spend' table='[Gender_Spend$]' type='table'>
+                <columns gridOrigin='A1:B3:no:A1:B3:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='gender' ordinal='0' />
+                  <column datatype='real' name='avg_spend' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontsize='18'>SPENDING COMPARISION </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='analysis_output_final' name='federated.0haew131vfi4bi1c2rpvk1qvfpnp' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0haew131vfi4bi1c2rpvk1qvfpnp'>
+            <column caption='Avg Spend' datatype='real' name='[avg_spend]' role='measure' type='quantitative' />
+            <column aggregation='Sum' caption='Gender' datatype='integer' name='[gender]' role='dimension' type='ordinal'>
+              <aliases>
+                <alias key='1' value='MALE' />
+                <alias key='2' value='FEMALE' />
+              </aliases>
+            </column>
+            <column-instance column='[gender]' derivation='None' name='[none:gender:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[avg_spend]' derivation='Sum' name='[sum:avg_spend:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[none:gender:ok]' />
+              <wedge-size column='[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[sum:avg_spend:qk]' />
+              <text column='[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[sum:avg_spend:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7691160440444946' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[none:gender:ok]</field>
+                  <field>[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[sum:avg_spend:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2</value>
+                <value>2323.5293999999999</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='106' y='-16' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[none:gender:ok]</field>
+                  <field>[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[sum:avg_spend:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>1</value>
+                <value>2935.6435999999999</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-108' y='18' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{67FAF1BA-42E1-43A0-9560-3BFD89D39EE8}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='5' param='[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[none:gender:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0haew131vfi4bi1c2rpvk1qvfpnp].[none:gender:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{92F122E2-B9AC-4D32-895A-A950137CF5D1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='164' name='Sheet 1' width='164'>
+      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
+      REiCrPh/4Q4qBOWFupgAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
