@@ -96,7 +96,6 @@ queries = {
         SELECT 
             primary_platform,
             COUNT(*) AS users,
-            AVG(monthly_spending) AS avg_spend,
             AVG(satisfaction) AS avg_satisfaction
         FROM survey_clean
         GROUP BY primary_platform
